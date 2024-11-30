@@ -15,8 +15,8 @@ class Kf5Karchive < Formula
 
   def install
     system "cmake", *kde_cmake_args
-    system "cmake", "--build", "build"
-    system "cmake", "--install", "build"
+    system "make"
+    system "make", "install"
     prefix.install "build/install_manifest.txt"
   end
   
