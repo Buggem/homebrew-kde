@@ -16,7 +16,7 @@ class Kf5Karchive < Formula
   def install
     args = std_cmake_args
 
-    system "cmake", "-DCMAKE_C_COMPILER=\"/usr/bin/clang\"", "-DCMAKE_CXX_COMPILER=\"/usr/bin/clang++\"", *kde_cmake_args
+    system "cmake", *kde_cmake_args
     system "make"
     system "make", "install"
     prefix.install "build/install_manifest.txt"
