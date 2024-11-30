@@ -17,7 +17,7 @@ class Kf5Kpackage < Formula
 
   depends_on "karchive"
   depends_on "kde-mac/kde/kf5-kcoreaddons"
-  depends_on "ki18n"
+  "kde-mac/kde/kf5-ki18n"
 
   def install
     system "cmake", *kde_cmake_args

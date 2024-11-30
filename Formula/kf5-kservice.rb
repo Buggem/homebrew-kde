@@ -20,7 +20,7 @@ class Kf5Kservice < Formula
   depends_on "kde-mac/kde/kf5-kconfig"
   depends_on "kde-mac/kde/kf5-kcrash"
   depends_on "kde-mac/kde/kf5-kdbusaddons"
-  depends_on "ki18n"
+  depends_on "kde-mac/kde/kf5-ki18n"
 
   def install
     system "cmake", *kde_cmake_args

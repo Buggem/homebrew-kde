@@ -20,7 +20,7 @@ class Kf5Kconfigwidgets < Formula
   depends_on "kde-mac/kde/kf5-kconfig"
   depends_on "kde-mac/kde/kf5-kguiaddons"
   depends_on "kde-mac/kde/kf5-kwidgetsaddons"
-  depends_on "ki18n"
+  depends_on "kde-mac/kde/kf5-ki18n"
 
   def install
     system "cmake", *kde_cmake_args

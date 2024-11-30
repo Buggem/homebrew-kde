@@ -13,7 +13,6 @@ MIGRATED=(
 	extra-cmake-modules
 	karchive
 	kdoctools
-	ki18n
 	threadweaver
 )
 

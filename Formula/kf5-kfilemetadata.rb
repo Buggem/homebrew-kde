@@ -19,7 +19,7 @@ class Kf5Kfilemetadata < Formula
   depends_on "karchive"
   depends_on "kde-mac/kde/kf5-kconfig"
   depends_on "kde-mac/kde/kf5-kcoreaddons"
-  depends_on "ki18n"
+  depends_on "kde-mac/kde/kf5-ki18n"
   depends_on "poppler-qt5"
   depends_on "taglib"
 

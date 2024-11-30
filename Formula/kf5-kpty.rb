@@ -15,7 +15,7 @@ class Kf5Kpty < Formula
   depends_on "ninja" => :build
 
   depends_on "kde-mac/kde/kf5-kcoreaddons"
-  depends_on "ki18n"
+  depends_on "kde-mac/kde/kf5-ki18n"
 
   def install
     system "cmake", *kde_cmake_args
