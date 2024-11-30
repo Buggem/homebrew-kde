@@ -13,7 +13,7 @@ class Umbrello < Formula
   depends_on "kde-mac/kde/kdevelop-pg-qt" => :build
   depends_on "kde-mac/kde/kf5-kdesignerplugin" => :build
   depends_on "kde-mac/kde/kf5-kinit" => :build
-  depends_on "kdoctools" => :build
+  depends_on "kde-mac/kde/kf5-kdoctools" => :build
   depends_on "ninja" => :build
 
   depends_on "hicolor-icon-theme"

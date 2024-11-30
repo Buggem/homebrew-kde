@@ -16,9 +16,6 @@ fi
 
 CORE_FORMULAS=(
 	threadweaver
-	kdoctools
-	ki18n
-	karchive
 	extra-cmake-modules
 )
 

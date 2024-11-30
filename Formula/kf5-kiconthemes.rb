@@ -14,7 +14,7 @@ class Kf5Kiconthemes < Formula
   depends_on "graphviz" => :build
   depends_on "ninja" => :build
 
-  depends_on "karchive"
+  depends_on "kde-mac/kde/kf5-karchive"
   depends_on "kde-mac/kde/kf5-kconfigwidgets"
   depends_on "kde-mac/kde/kf5-kitemviews"
 

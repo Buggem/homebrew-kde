@@ -11,8 +11,6 @@ brew services restart dbus
 
 MIGRATED=(
 	extra-cmake-modules
-	karchive
-	kdoctools
 	threadweaver
 )
 

@@ -13,7 +13,7 @@ class Kf5Tier1Frameworks < Formula
   end
 
   depends_on "extra-cmake-modules"
-  depends_on "karchive"
+  depends_on "kde-mac/kde/kf5-karchive"
   depends_on "kde-mac/kde/kf5-attica"
   depends_on "kde-mac/kde/kf5-breeze-icons"
   depends_on "kde-mac/kde/kf5-kcodecs"

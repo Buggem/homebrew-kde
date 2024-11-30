@@ -10,7 +10,7 @@ class Kile < Formula
 
   depends_on "cmake" => :build
   depends_on "extra-cmake-modules" => :build
-  depends_on "kdoctools" => :build
+  depends_on "kde-mac/kde/kf5-kdoctools" => :build
   depends_on "ninja" => :build
 
   depends_on "kde-mac/kde/kf5-khtml"

@@ -13,7 +13,7 @@ class Kdiff3 < Formula
   depends_on "kde-mac/kde/kf5-kcrash" => :build
   depends_on "kde-mac/kde/kf5-kiconthemes" => :build
   depends_on "kde-mac/kde/kf5-kparts" => :build
-  depends_on "kdoctools" => :build
+  depends_on "kde-mac/kde/kf5-kdoctools" => :build
   depends_on "ninja" => :build
 
   depends_on "kde-mac/kde/kf5-breeze-icons"
